@@ -6,10 +6,10 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: Nam's blog
 
 # Your name to show in the footer
-author: Some Person
+author: Hoang Nam
 
 # --- List of links in the navigation bar --- #
 
@@ -41,26 +41,26 @@ round-avatar: true
 social-network-links:
   email: "someone@example.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
-#  medium: yourname
-#  reddit: yourname
-#  linkedin: daattali
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
-#  telegram: yourname
-#  calendly: yourname
-#  mastodon: instance.url/@username
+  facebook: hoangnamphan
+  github: hoangnamphan
+  twitter: hoangnamphan
+  patreon: hoangnamphan
+  youtube: c/hoangnamphan
+#  medium: Nam
+#  reddit: Nam
+#  linkedin: Nam
+#  xing: Nam
+#  stackoverflow: "3943160/Nam"
+#  snapchat: Nam
+#  instagram: Nam
+#  spotify: Nam
+#  telephone: +0844159998888
+#  steam: Nam
+#  twitch: Nam
+#  yelp: Nam
+#  telegram: Nam
+#  calendly: Nam
+#  mastodon: instance.url/@Nam
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 
@@ -251,6 +251,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-# Beautiful Jekyll / Dean Attali
+# Beautiful Connyll / Hoang Nam
 # 2fc73a3a967e97599c9763d05e564189
 
