@@ -1,12 +1,12 @@
-// Dean Attali / Beautiful Jekyll 2020
+// Hoang Nam / Beautiful Connyll 2021
 
-var BeautifulJekyllJS = {
+var BeautifulConnyJS = {
 
   bigImgEl : null,
   numImgs : null,
 
   init : function() {
-    setTimeout(BeautifulJekyllJS.initNavbar, 10);
+    setTimeout(BeautifulConnyJS.initNavbar, 10);
 
     // Shorten the navbar after scrolling a little bit down
     $(window).scroll(function() {
@@ -26,9 +26,9 @@ var BeautifulJekyllJS = {
     });
 
     // show the big header image
-    BeautifulJekyllJS.initImgs();
+    BeautifulConnyJS.initImgs();
 
-    BeautifulJekyllJS.initSearch();
+    BeautifulConnyJS.initSearch();
   },
 
   initNavbar : function() {
@@ -49,19 +49,19 @@ var BeautifulJekyllJS = {
   initImgs : function() {
     // If the page was large images to randomly select from, choose an image
     if ($("#header-big-imgs").length > 0) {
-      BeautifulJekyllJS.bigImgEl = $("#header-big-imgs");
-      BeautifulJekyllJS.numImgs = BeautifulJekyllJS.bigImgEl.attr("data-num-img");
+      BeautifulConnyJS.bigImgEl = $("#header-big-imgs");
+      BeautifulConnyJS.numImgs = BeautifulConnyJS.bigImgEl.attr("data-num-img");
 
       // 2fc73a3a967e97599c9763d05e564189
       // set an initial image
-      var imgInfo = BeautifulJekyllJS.getImgInfo();
+      var imgInfo = BeautifulConnyJS.getImgInfo();
       var src = imgInfo.src;
       var desc = imgInfo.desc;
-      BeautifulJekyllJS.setImg(src, desc);
+      BeautifulConnyJS.setImg(src, desc);
 
       // For better UX, prefetch the next image so that it will already be loaded when we want to show it
       var getNextImg = function() {
-        var imgInfo = BeautifulJekyllJS.getImgInfo();
+        var imgInfo = BeautifulConnyJS.getImgInfo();
         var src = imgInfo.src;
         var desc = imgInfo.desc;
 
@@ -77,7 +77,7 @@ var BeautifulJekyllJS = {
           // after the animation of fading in the new image is done, prefetch the next one
           //img.one("transitioned webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
           setTimeout(function() {
-            BeautifulJekyllJS.setImg(src, desc);
+            BeautifulConnyJS.setImg(src, desc);
             img.remove();
             getNextImg();
           }, 1000);
@@ -86,16 +86,16 @@ var BeautifulJekyllJS = {
       };
 
       // If there are multiple images, cycle through them
-      if (BeautifulJekyllJS.numImgs > 1) {
+      if (BeautifulConnyJS.numImgs > 1) {
         getNextImg();
       }
     }
   },
 
   getImgInfo : function() {
-    var randNum = Math.floor((Math.random() * BeautifulJekyllJS.numImgs) + 1);
-    var src = BeautifulJekyllJS.bigImgEl.attr("data-img-src-" + randNum);
-    var desc = BeautifulJekyllJS.bigImgEl.attr("data-img-desc-" + randNum);
+    var randNum = Math.floor((Math.random() * BeautifulConnyJS.numImgs) + 1);
+    var src = BeautifulConnyJS.bigImgEl.attr("data-img-src-" + randNum);
+    var desc = BeautifulConnyJS.bigImgEl.attr("data-img-desc-" + randNum);
 
     return {
       src : src,
@@ -139,4 +139,4 @@ var BeautifulJekyllJS = {
 
 // 2fc73a3a967e97599c9763d05e564189
 
-document.addEventListener('DOMContentLoaded', BeautifulJekyllJS.init);
+document.addEventListener('DOMContentLoaded', BeautifulConnyJS.init);
