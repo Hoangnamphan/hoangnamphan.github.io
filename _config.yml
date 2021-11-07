@@ -16,9 +16,9 @@ author: Hoang Nam
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Beautiful Connyll: "https://hoangnamphan.github.io"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Author's home: "https://hoangnamphan.github.io"
 
 # --- Logo --- #
 
@@ -65,7 +65,7 @@ social-network-links:
 #  google-scholar: your google scholar
 
 # If you want your website to generate an RSS feed, provide a description
-# The URL for the feed will be https://<your_website>/feed.xml
+# The URL for the feed will be https://hoangnamphan.github.io/feed.xml
 rss-description: This website is a virtual proof that I'm awesome
 
 # --- General options --- #
@@ -79,7 +79,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "hoangnamphan.github.io"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -165,7 +165,7 @@ footer-hover-col: "#0085A1"
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
 # See more details about the parameters below at https://utteranc.es/
 #utterances:
-#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#  repository: # GitHub username/repository eg. "hoangnamphan/hoangnamphan.github.io"
 #  issue-term: title   # Mapping between blog posts and GitHub issues
 #  theme: github-light # Utterances theme
 #  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
@@ -191,7 +191,7 @@ footer-hover-col: "#0085A1"
 # See more details about giscus and each of the following parameters at https://giscus.app
 #giscus:
 #  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
-#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#  repository: # GitHub username/repository eg. "hoangnamphan/hoangnamphan.github.io"
 #  repository-id: # ID of your repository, retrieve this info from https://giscus.app
 #  category: Announcements # Category name of your GitHub Discussion posts
 #  category-id: # ID of your category, retrieve this info from https://giscus.app
@@ -211,7 +211,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Asia/Hanoi"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
